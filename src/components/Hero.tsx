@@ -26,7 +26,7 @@ const Hero = () => {
               TASIN SAYED
             </h1>
             <div className="fade-in-up-delay text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
-              <span className="hero-text-gradient">Coder</span> • <span className="hero-text-gradient">CSE Student</span> • <span className="hero-text-gradient">Problem Solver</span>
+              <span className="hero-text-gradient">"Turning ideas into code, and code into impact."</span>
             </div>
             <p className="fade-in-up-delay text-lg md:text-xl mb-12 max-w-2xl lg:max-w-none text-muted-foreground backdrop-blur-sm bg-background/20 p-4 rounded-lg">
               Passionate Computer Science student at AIUB with expertise in multiple programming languages. 
