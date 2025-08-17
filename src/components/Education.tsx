@@ -47,7 +47,7 @@ const Education = () => {
       icon: <Cpu className="w-5 h-5" />
     },
     {
-      title: "IELTS 7.5",
+      title: "IELTS",
       year: "Recent",
       description: "Achieved IELTS score of 7.5 demonstrating English proficiency",
       icon: <Globe className="w-5 h-5" />
