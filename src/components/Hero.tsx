@@ -26,7 +26,7 @@ const Hero = () => {
               TASIN SAYED
             </h1>
             <div className="fade-in-up-delay text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
-              <span className="text-foreground font-semibold">"Turning ideas into code, and code into impact."</span>
+              <span className="hero-text-gradient">"Turning ideas into code, and code into impact."</span>
             </div>
             
             {/* CTA Buttons */}
