@@ -58,9 +58,9 @@ const Skills = () => {
       description: "Business intelligence & insights"
     },
     {
-      icon: <Target className="w-8 h-8" />,
-      title: "Problem Solving",
-      description: "Algorithmic thinking & optimization"
+      icon: <Code className="w-8 h-8" />,
+      title: "Software Development",
+      description: "Full-stack development & architecture"
     }
   ];
 
