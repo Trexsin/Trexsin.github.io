@@ -13,64 +13,79 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center">
-        <div className="fade-in-up">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 font-display tracking-tight">
-            TASIN SAYED
-          </h1>
-          <div className="text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
-            <span className="hero-text-gradient">Coder</span> • <span className="hero-text-gradient">CSE Student</span> • <span className="hero-text-gradient">Problem Solver</span>
+      <div className="relative z-10 container mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+          {/* Text Content */}
+          <div className="fade-in-up lg:order-1 text-center lg:text-left">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 font-display tracking-tight">
+              TASIN SAYED
+            </h1>
+            <div className="text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
+              <span className="hero-text-gradient">Coder</span> • <span className="hero-text-gradient">CSE Student</span> • <span className="hero-text-gradient">Problem Solver</span>
+            </div>
+            <p className="text-lg md:text-xl mb-12 max-w-2xl lg:max-w-none text-muted-foreground">
+              Passionate Computer Science student at AIUB with expertise in multiple programming languages. 
+              I love solving complex problems and building innovative solutions.
+            </p>
+            
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
+              <Button 
+                size="lg" 
+                className="font-semibold px-8 py-3 text-lg"
+                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                View Projects
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="font-semibold px-8 py-3 text-lg"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Contact Me
+              </Button>
+            </div>
+            
+            {/* Quick Actions */}
+            <div className="flex justify-center lg:justify-start gap-4 flex-wrap">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => window.open('#', '_blank')}
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Download CV
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => window.open('https://github.com/Trexsin', '_blank')}
+              >
+                <Github className="w-4 h-4 mr-2" />
+                GitHub
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}
+              >
+                <Facebook className="w-4 h-4 mr-2" />
+                Facebook
+              </Button>
+            </div>
           </div>
-          <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-muted-foreground">
-            Passionate Computer Science student at AIUB with expertise in multiple programming languages. 
-            I love solving complex problems and building innovative solutions.
-          </p>
-          
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
-              className="font-semibold px-8 py-3 text-lg"
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              View Projects
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="font-semibold px-8 py-3 text-lg"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Contact Me
-            </Button>
-          </div>
-          
-          {/* Quick Actions */}
-          <div className="flex justify-center gap-6">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => window.open('#', '_blank')}
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Download CV
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => window.open('https://github.com/Trexsin', '_blank')}
-            >
-              <Github className="w-4 h-4 mr-2" />
-              GitHub
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}
-            >
-              <Facebook className="w-4 h-4 mr-2" />
-              Facebook
-            </Button>
+
+          {/* Profile Image */}
+          <div className="fade-in-up lg:order-2 flex justify-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full blur-2xl transform scale-110"></div>
+              <img 
+                src="/lovable-uploads/7c910759-555d-4ea1-92ca-f51b09a444ac.png"
+                alt="Tasin Sayed - Computer Science Student"
+                className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full border-4 border-primary/20 hover-scale"
+              />
+            </div>
           </div>
         </div>
       </div>
