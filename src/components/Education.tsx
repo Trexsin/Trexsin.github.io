@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Award, BookOpen, Trophy, Globe, Cpu } from "lucide-react";
+import { GraduationCap, Award, BookOpen, Trophy, Globe, PenTool } from "lucide-react";
 const Education = () => {
   const education = [{
     institution: "American International University-Bangladesh (AIUB)",
@@ -33,10 +33,10 @@ const Education = () => {
     description: "Won the regional science fair with an innovative project",
     icon: <Trophy className="w-5 h-5" />
   }, {
-    title: "Cisco IT Essentials",
-    year: "2024",
-    description: "Completed Cisco IT Essentials certification program",
-    icon: <Cpu className="w-5 h-5" />
+    title: "English Olympiad 2017",
+    year: "2017",
+    description: "Divisional - 4th round achievement in English language competition",
+    icon: <PenTool className="w-5 h-5" />
   }, {
     title: "IELTS 7.5",
     year: "Recent",
