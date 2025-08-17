@@ -72,9 +72,8 @@ const Footer = () => {
           <Button variant="outline" size="sm" className="hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20" onClick={() => window.open('https://www.linkedin.com/in/tasin-sayed/', '_blank')}>
             <Linkedin className="w-4 h-4" />
           </Button>
-          <Button variant="outline" size="sm" className="hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 group" onClick={() => window.open('mailto:tasin.gssc@gmail.com', '_blank')}>
+          <Button variant="outline" size="sm" className="hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20" onClick={() => window.open('mailto:tasin.gssc@gmail.com', '_blank')}>
             <Mail className="w-4 h-4" />
-            <span className="ml-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300">tasin.gssc@gmail.com</span>
           </Button>
         </div>
         
