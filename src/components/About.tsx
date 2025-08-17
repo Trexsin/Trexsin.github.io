@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { GraduationCap, Code, Heart, Users } from "lucide-react";
-
 const About = () => {
-  return (
-    <section className="py-20 section-alt">
+  return <section className="py-20 section-alt">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
@@ -20,9 +18,7 @@ const About = () => {
                 <GraduationCap className="w-8 h-8 text-primary" />
               </div>
               <h3 className="font-display font-semibold text-lg">Student</h3>
-              <p className="text-muted-foreground text-sm">
-                4th semester CSE student at AIUB with CGPA 3.44, constantly learning new technologies.
-              </p>
+              <p className="text-muted-foreground text-sm">CSE student at AIUB constantly learning new technologies.</p>
             </CardContent>
           </Card>
           
@@ -84,8 +80,6 @@ const About = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
