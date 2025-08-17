@@ -100,20 +100,20 @@ const Contact = () => {
               <CardContent>
                 <div className="grid grid-cols-2 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-primary mb-1">10+</div>
-                    <div className="text-sm text-muted-foreground">Years Volunteering</div>
+                    <div className="text-3xl font-bold text-primary mb-1">2</div>
+                    <div className="text-sm text-muted-foreground">Ongoing Projects</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-accent mb-1">7.5</div>
-                    <div className="text-sm text-muted-foreground">IELTS Score</div>
+                    <div className="text-3xl font-bold text-accent mb-1">2</div>
+                    <div className="text-sm text-muted-foreground">Completed Projects</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-primary mb-1">3.44</div>
-                    <div className="text-sm text-muted-foreground">Current CGPA</div>
+                    <div className="text-3xl font-bold text-primary mb-1">Python</div>
+                    <div className="text-sm text-muted-foreground">Preferred Language</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-accent mb-1">4th</div>
-                    <div className="text-sm text-muted-foreground">Semester</div>
+                    <div className="text-3xl font-bold text-accent mb-1">4+</div>
+                    <div className="text-sm text-muted-foreground">Years Experience</div>
                   </div>
                 </div>
               </CardContent>
