@@ -57,7 +57,7 @@ const Hero = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
+                className="backdrop-blur-sm bg-background/40 border border-background/60 transition-all duration-300 hover:scale-105 hover:bg-background/60"
                 onClick={() => window.open('#', '_blank')}
               >
                 <Download className="w-4 h-4 mr-2" />
@@ -66,7 +66,7 @@ const Hero = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
+                className="backdrop-blur-sm bg-background/40 border border-background/60 transition-all duration-300 hover:scale-105 hover:bg-background/60"
                 onClick={() => window.open('https://github.com/Trexsin', '_blank')}
               >
                 <Github className="w-4 h-4 mr-2" />
@@ -75,7 +75,7 @@ const Hero = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
+                className="backdrop-blur-sm bg-background/40 border border-background/60 transition-all duration-300 hover:scale-105 hover:bg-background/60"
                 onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}
               >
                 <Facebook className="w-4 h-4 mr-2" />
