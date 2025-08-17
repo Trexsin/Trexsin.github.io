@@ -50,7 +50,7 @@ const Hero = () => {
               <Button 
                 variant="outline"
                 size="lg" 
-                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
+                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm bg-background/10 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Projects
