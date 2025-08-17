@@ -29,13 +29,13 @@ const Hero = () => {
             {/* Job Titles */}
             <div className="fade-in-up-delay mb-6">
               <div className="flex flex-wrap justify-center lg:justify-start gap-3 text-sm md:text-base">
-                <span className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full font-medium backdrop-blur-sm">
+                <span className="px-4 py-2 bg-primary/80 text-primary-foreground border border-primary rounded-full font-medium backdrop-blur-md shadow-lg">
                   Software Developer
                 </span>
-                <span className="px-4 py-2 bg-accent/10 text-accent border border-accent/20 rounded-full font-medium backdrop-blur-sm">
+                <span className="px-4 py-2 bg-accent/80 text-accent-foreground border border-accent rounded-full font-medium backdrop-blur-md shadow-lg">
                   Data Analyst
                 </span>
-                <span className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full font-medium backdrop-blur-sm">
+                <span className="px-4 py-2 bg-primary/80 text-primary-foreground border border-primary rounded-full font-medium backdrop-blur-md shadow-lg">
                   AI Engineer
                 </span>
               </div>
