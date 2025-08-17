@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Facebook, Mail, Heart, ArrowUp } from "lucide-react";
+import { Github, Facebook, Mail, Heart, ArrowUp, Linkedin } from "lucide-react";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const scrollToTop = () => {
@@ -25,7 +25,10 @@ const Footer = () => {
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}>
                 <Facebook className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('mailto:tasin.sayed@example.com', '_blank')}>
+              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('https://www.linkedin.com/in/tasin-sayed/', '_blank')}>
+                <Linkedin className="w-4 h-4" />
+              </Button>
+              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('mailto:tasin.gssc@gmail.com', '_blank')}>
                 <Mail className="w-4 h-4" />
               </Button>
             </div>

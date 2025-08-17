@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Eye, Github, Mail, Facebook } from "lucide-react";
+import { Eye, Github, Mail, Facebook, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -76,6 +76,15 @@ const Hero = () => {
               >
                 <Facebook className="w-4 h-4 mr-2" />
                 Facebook
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="backdrop-blur-sm bg-background/40 border border-background/60 transition-all duration-300 hover:scale-105 hover:bg-background/60"
+                onClick={() => window.open('https://www.linkedin.com/in/tasin-sayed/', '_blank')}
+              >
+                <Linkedin className="w-4 h-4 mr-2" />
+                LinkedIn
               </Button>
             </div>
           </div>

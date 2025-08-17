@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, Github, Facebook, Send, MapPin, Download } from "lucide-react";
+import { Mail, Phone, Github, Facebook, Send, MapPin, Download, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -33,6 +33,13 @@ const Contact = () => {
       value: "tasin.sayed.bd",
       href: "https://facebook.com/tasin.sayed.bd",
       color: "text-accent"
+    },
+    {
+      icon: <Linkedin className="w-5 h-5" />,
+      label: "LinkedIn",
+      value: "tasin-sayed",
+      href: "https://www.linkedin.com/in/tasin-sayed/",
+      color: "text-primary"
     }
   ];
 
