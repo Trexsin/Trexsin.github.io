@@ -39,7 +39,7 @@ const Projects = () => {
                 <img src={project.image} alt={project.title} className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-20 group-hover:opacity-30 transition-opacity`}></div>
                 <div className="absolute top-4 left-4">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-lg p-2">
+                  <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2">
                     {project.icon}
                   </div>
                 </div>
