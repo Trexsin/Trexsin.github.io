@@ -12,7 +12,8 @@ const Projects = () => {
     technologies: ["C++", "OOP", "Random Generation", "Statistics"],
     features: ["Object-Oriented Design", "Random Number Generator", "Emoji UI", "Statistics Tracking", "Multiple Dice Types"],
     icon: <Code2 className="w-6 h-6" />,
-    color: "from-blue-500 to-cyan-500"
+    color: "from-blue-500 to-cyan-500",
+    githubUrl: "https://github.com/Trexsin/Dice-Game.git"
   }, {
     title: "🧾 Store Inventory Management System",
     description: "A comprehensive inventory management system built with Java Swing featuring a modern GUI, real-time search capabilities, and MVC architecture for efficient store operations.",
@@ -20,7 +21,8 @@ const Projects = () => {
     technologies: ["Java", "Java Swing", "GUI", "MVC Pattern"],
     features: ["Modern GUI Interface", "Real-time Search", "MVC Structure", "Data Management", "User-friendly Design"],
     icon: <Database className="w-6 h-6" />,
-    color: "from-amber-500 to-orange-500"
+    color: "from-amber-500 to-orange-500",
+    githubUrl: "https://github.com/Trexsin/Store-Inventory-System.git"
   }];
   return <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-6">
@@ -77,7 +79,7 @@ const Projects = () => {
                     size="sm" 
                     variant="outline" 
                     className="flex-1"
-                    onClick={() => window.open('https://github.com/Trexsin/Dice-Game.git', '_blank')}
+                    onClick={() => window.open(project.githubUrl, '_blank')}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     View Code
