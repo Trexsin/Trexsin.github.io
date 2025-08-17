@@ -54,7 +54,7 @@ const Hero = () => {
                 variant="ghost"
                 size="sm"
                 className="backdrop-blur-sm bg-background/40 border border-background/60 transition-all duration-300 hover:scale-105 hover:bg-background/60"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://efswlnvdpjcoahbmqjky.supabase.co/storage/v1/object/sign/Portfolio%20files/Tasin\'s%20CV.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lZWU5OWNlYi1jOTU5LTRlNTAtODM0Ny0yNGE5ODY1YjM5NmIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJQb3J0Zm9saW8gZmlsZXMvVGFzaW4ncyBDVi5wZGYiLCJpYXQiOjE3NTU0MzMxNTgsImV4cCI6MzMyNTk4OTcxNTh9.q4dNxpe0hR9-DM6A5uy2jMZQVULXvsuyKD4ICeNQ3po', '_blank')}
               >
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
