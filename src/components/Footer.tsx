@@ -1,15 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Github, Facebook, Mail, Heart, ArrowUp } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
-
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
@@ -20,28 +19,13 @@ const Footer = () => {
               and contributing to meaningful projects.
             </p>
             <div className="flex gap-3">
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-primary-foreground hover:bg-white/10"
-                onClick={() => window.open('https://github.com/Trexsin', '_blank')}
-              >
+              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('https://github.com/Trexsin', '_blank')}>
                 <Github className="w-4 h-4" />
               </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-primary-foreground hover:bg-white/10"
-                onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}
-              >
+              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}>
                 <Facebook className="w-4 h-4" />
               </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-primary-foreground hover:bg-white/10"
-                onClick={() => window.open('mailto:tasin.sayed@example.com', '_blank')}
-              >
+              <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={() => window.open('mailto:tasin.sayed@example.com', '_blank')}>
                 <Mail className="w-4 h-4" />
               </Button>
             </div>
@@ -51,34 +35,26 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-display font-semibold">Quick Links</h4>
             <nav className="space-y-2">
-              <a 
-                href="#projects" 
-                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-              >
+              <a href="#projects" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={e => {
+              e.preventDefault();
+              document.getElementById('projects')?.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }}>
                 Projects
               </a>
-              <a 
-                href="#contact" 
-                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-              >
+              <a href="#contact" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={e => {
+              e.preventDefault();
+              document.getElementById('contact')?.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }}>
                 Contact
               </a>
-              <a 
-                href="#" 
-                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                onClick={(e) => {
-                  e.preventDefault();
-                  // CV download functionality
-                }}
-              >
+              <a href="#" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={e => {
+              e.preventDefault();
+              // CV download functionality
+            }}>
                 Download CV
               </a>
             </nav>
@@ -88,10 +64,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-display font-semibold">Get In Touch</h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>📧 tasin.sayed@example.com</p>
-              <p>📱 +880 123 456 7890</p>
+              <p>📧 tasin.gssc@gmail.com</p>
+              <p>📱 +880 1718-080138</p>
               <p>🎓 AIUB, Dhaka, Bangladesh</p>
-              <p>🔴 Red Crescent Volunteer</p>
+              
             </div>
           </div>
         </div>
@@ -104,19 +80,12 @@ const Footer = () => {
             <span>using React & TypeScript</span>
           </div>
           
-          <Button
-            variant="ghost"
-            size="sm"
-            className="text-primary-foreground hover:bg-white/10"
-            onClick={scrollToTop}
-          >
+          <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-white/10" onClick={scrollToTop}>
             <ArrowUp className="w-4 h-4 mr-2" />
             Back to Top
           </Button>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
