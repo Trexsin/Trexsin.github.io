@@ -96,7 +96,7 @@ const Education = () => {
                           {edu.status}
                         </Badge>
                         <Badge className="bg-primary/10 text-primary border-primary/20">
-                          CGPA: {edu.cgpa}
+                          {edu.degree.includes('HSC') || edu.degree.includes('SSC') ? 'GPA' : 'CGPA'}: {edu.cgpa}
                         </Badge>
                       </div>
                     </div>
