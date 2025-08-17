@@ -6,11 +6,15 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(/lovable-uploads/7c910759-555d-4ea1-92ca-f51b09a444ac.png)` }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
+        style={{ 
+          backgroundImage: `url(/lovable-uploads/7c910759-555d-4ea1-92ca-f51b09a444ac.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          filter: 'contrast(1.1) brightness(1.05) saturate(1.1)'
+        }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-background/30 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-background/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-transparent to-transparent"></div>
       </div>
       
       {/* Content */}
