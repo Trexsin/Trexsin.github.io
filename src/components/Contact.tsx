@@ -9,15 +9,15 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "tasin.sayed@example.com",
-      href: "mailto:tasin.sayed@example.com",
+      value: "tasin.gssc@gmail.com",
+      href: "mailto:tasin.gssc@gmail.com",
       color: "text-primary"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+880 123 456 7890",
-      href: "tel:+8801234567890",
+      value: "+8801718080138",
+      href: "tel:+8801718080138",
       color: "text-accent"
     },
     {
