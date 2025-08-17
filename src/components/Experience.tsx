@@ -22,7 +22,7 @@ const Experience = () => {
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                       <Briefcase className="w-6 h-6 text-primary" />
                     </div>
-                    Business Analytics Assistant
+                    Business Analytics Assistant (temp.)
                   </CardTitle>
                   <div className="flex items-center gap-4 text-muted-foreground mb-2">
                     <span className="font-semibold text-primary">United Group HQ</span>
