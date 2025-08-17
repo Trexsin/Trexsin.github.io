@@ -104,7 +104,7 @@ const Skills = () => {
             {specializations.map((spec, index) => (
               <Card key={index} className="portfolio-card text-center p-6 group">
                 <CardContent className="space-y-4">
-                  <div className="text-primary group-hover:text-accent transition-colors">
+                  <div className="text-primary group-hover:text-accent transition-colors flex justify-center">
                     {spec.icon}
                   </div>
                   <h4 className="font-display font-semibold text-lg">{spec.title}</h4>
