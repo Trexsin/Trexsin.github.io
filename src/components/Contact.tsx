@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "House- 37/c, Road- 3, Block -D, Bashundhara Residential Area, Dhaka- 1229",
+      value: ["House- 37/c, Road- 3, Block -D", "Bashundhara Residential Area, Dhaka- 1229"],
       href: "#",
       color: "text-accent"
     }
@@ -81,14 +81,21 @@ const Contact = () => {
                       <p className="font-medium text-sm text-muted-foreground uppercase tracking-wide">
                         {contact.label}
                       </p>
-                      <a 
-                        href={contact.href}
-                        className="text-foreground hover:text-primary transition-colors font-medium"
-                        target={contact.href.startsWith('http') ? '_blank' : undefined}
-                        rel={contact.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      >
-                        {contact.value}
-                      </a>
+                       <a 
+                         href={contact.href}
+                         className="text-foreground hover:text-primary transition-colors font-medium"
+                         target={contact.href.startsWith('http') ? '_blank' : undefined}
+                         rel={contact.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                       >
+                         {Array.isArray(contact.value) ? (
+                           <div>
+                             <div>{contact.value[0]}</div>
+                             <div>{contact.value[1]}</div>
+                           </div>
+                         ) : (
+                           contact.value
+                         )}
+                       </a>
                     </div>
                   </div>
                 ))}
