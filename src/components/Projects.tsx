@@ -73,7 +73,12 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3 pt-4">
-                  <Button size="sm" variant="outline" className="flex-1">
+                  <Button 
+                    size="sm" 
+                    variant="outline" 
+                    className="flex-1"
+                    onClick={() => window.open('https://github.com/Trexsin/Dice-Game.git', '_blank')}
+                  >
                     <Github className="w-4 h-4 mr-2" />
                     View Code
                   </Button>
