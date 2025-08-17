@@ -22,9 +22,25 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-20 transition-all duration-700 ease-in-out">
           {/* Text Content */}
           <div className="fade-in-up text-center lg:text-left">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 font-display tracking-tight text-foreground">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 font-display tracking-tight text-foreground">
               TASIN SAYED
             </h1>
+            
+            {/* Job Titles */}
+            <div className="fade-in-up-delay mb-6">
+              <div className="flex flex-wrap justify-center lg:justify-start gap-3 text-sm md:text-base">
+                <span className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full font-medium backdrop-blur-sm">
+                  Software Developer
+                </span>
+                <span className="px-4 py-2 bg-accent/10 text-accent border border-accent/20 rounded-full font-medium backdrop-blur-sm">
+                  Data Analyst
+                </span>
+                <span className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full font-medium backdrop-blur-sm">
+                  AI Engineer
+                </span>
+              </div>
+            </div>
+            
             <div className="fade-in-up-delay text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
               <span className="text-foreground font-semibold">"Turning ideas into code, and code into impact."</span>
             </div>
