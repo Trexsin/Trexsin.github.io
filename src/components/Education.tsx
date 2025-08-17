@@ -86,8 +86,8 @@ const Education = () => {
                       {edu.icon}
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl font-display mb-2">{edu.institution}</CardTitle>
-                      <p className="text-muted-foreground font-medium mb-2">{edu.degree}</p>
+                      <CardTitle className="text-xl font-display mb-2">{edu.degree}</CardTitle>
+                      <p className="text-muted-foreground font-medium mb-2">{edu.institution}</p>
                       <div className="flex items-center gap-4 text-sm">
                         <Badge variant="outline" className="skill-badge">
                           {edu.period}
