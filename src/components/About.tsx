@@ -4,7 +4,7 @@ const About = () => {
   return <section className="py-20 section-alt">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Introduction</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             I'm a passionate Computer Science undergraduate at AIUB, currently in my 4th semester. 
             I have a deep love for coding, data analytics, and app development, always seeking to learn and grow.
