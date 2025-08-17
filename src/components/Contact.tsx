@@ -40,6 +40,13 @@ const Contact = () => {
       value: "tasin-sayed",
       href: "https://www.linkedin.com/in/tasin-sayed/",
       color: "text-primary"
+    },
+    {
+      icon: <MapPin className="w-5 h-5" />,
+      label: "Location",
+      value: "House- 37/c, Road- 3, Block -D, Bashundhara Residential Area, Dhaka- 1229",
+      href: "#",
+      color: "text-accent"
     }
   ];
 
