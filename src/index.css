@@ -172,4 +172,9 @@ All colors MUST be HSL.
   .section-alt {
     background-color: hsl(var(--section-bg));
   }
-}
+  }
+
+  /* Hide Lovable badge */
+  #lovable-badge {
+    display: none !important;
+  }
