@@ -25,19 +25,19 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 font-display tracking-tight text-foreground">
               TASIN SAYED
             </h1>
-            <div className="text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
+            <div className="fade-in-up-delay text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
               <span className="hero-text-gradient">Coder</span> • <span className="hero-text-gradient">CSE Student</span> • <span className="hero-text-gradient">Problem Solver</span>
             </div>
-            <p className="text-lg md:text-xl mb-12 max-w-2xl lg:max-w-none text-muted-foreground backdrop-blur-sm bg-background/20 p-4 rounded-lg">
+            <p className="fade-in-up-delay text-lg md:text-xl mb-12 max-w-2xl lg:max-w-none text-muted-foreground backdrop-blur-sm bg-background/20 p-4 rounded-lg">
               Passionate Computer Science student at AIUB with expertise in multiple programming languages. 
               I love solving complex problems and building innovative solutions.
             </p>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
+            <div className="fade-in-up-delay-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
               <Button 
                 size="lg" 
-                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm"
+                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm transition-all duration-300 hover:scale-105"
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Projects
@@ -45,7 +45,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm bg-background/10"
+                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact Me
@@ -53,11 +53,11 @@ const Hero = () => {
             </div>
             
             {/* Quick Actions */}
-            <div className="flex justify-center lg:justify-start gap-4 flex-wrap">
+            <div className="fade-in-up-delay-2 flex justify-center lg:justify-start gap-4 flex-wrap">
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10"
+                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
                 onClick={() => window.open('#', '_blank')}
               >
                 <Download className="w-4 h-4 mr-2" />
@@ -66,7 +66,7 @@ const Hero = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10"
+                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
                 onClick={() => window.open('https://github.com/Trexsin', '_blank')}
               >
                 <Github className="w-4 h-4 mr-2" />
@@ -75,7 +75,7 @@ const Hero = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="backdrop-blur-sm bg-background/10"
+                className="backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
                 onClick={() => window.open('https://facebook.com/tasin.sayed.bd', '_blank')}
               >
                 <Facebook className="w-4 h-4 mr-2" />
