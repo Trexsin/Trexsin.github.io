@@ -48,9 +48,8 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="fade-in-up-delay-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
               <Button 
-                variant="outline" 
-                size="lg"
-                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm bg-background/10 transition-all duration-300 hover:scale-105"
+                size="lg" 
+                className="font-semibold px-8 py-3 text-lg backdrop-blur-sm transition-all duration-300 hover:scale-105"
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Projects
