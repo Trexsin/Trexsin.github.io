@@ -28,10 +28,6 @@ const Hero = () => {
             <div className="fade-in-up-delay text-xl md:text-2xl mb-8 font-medium text-muted-foreground">
               <span className="hero-text-gradient">"Turning ideas into code, and code into impact."</span>
             </div>
-            <p className="fade-in-up-delay text-lg md:text-xl mb-12 max-w-2xl lg:max-w-none text-muted-foreground backdrop-blur-sm bg-background/20 p-4 rounded-lg">
-              Passionate Computer Science student at AIUB with expertise in multiple programming languages. 
-              I love solving complex problems and building innovative solutions.
-            </p>
             
             {/* CTA Buttons */}
             <div className="fade-in-up-delay-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
