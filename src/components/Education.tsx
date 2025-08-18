@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Award, BookOpen, Trophy, Globe, PenTool } from "lucide-react";
+import { GraduationCap, Award, BookOpen, Trophy, Globe, PenTool, Moon } from "lucide-react";
 const Education = () => {
   const education = [{
     institution: "American International University-Bangladesh (AIUB)",
@@ -120,7 +120,7 @@ const Education = () => {
                 <CardHeader>
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-destructive/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Award className="w-6 h-6 text-destructive" />
+                      <Moon className="w-6 h-6 text-destructive" />
                     </div>
                     <div className="flex-1">
                       <CardTitle className="text-xl font-display mb-2">{vol.organization}</CardTitle>
