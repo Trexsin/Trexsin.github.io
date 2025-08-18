@@ -4,7 +4,7 @@ import { Calendar, MapPin, Briefcase, TrendingUp, BarChart, Zap } from "lucide-r
 
 const Experience = () => {
   return (
-    <section className="py-20 section-alt">
+    <section id="experience" className="py-20 section-alt">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Professional Experience</h2>
